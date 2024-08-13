@@ -22,7 +22,7 @@ export default function SplashScreen({ navigation }) {
         <Text style={styles.title}>Find and rental car in easy steps.</Text>
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigation.navigate('Home')}
+          onPress={() => navigation.navigate('Login')}
         >
           <Text style={styles.buttonText}>LET'S GO!</Text>
         </TouchableOpacity>
